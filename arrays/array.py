@@ -17,6 +17,10 @@ def array_test():
 
     print(sorted(arr))
 
+    arr.insert(0, 2)
+
+    print(arr)
+
     print('__name__:', __name__)    # __name__ 변수 출력
 
 
